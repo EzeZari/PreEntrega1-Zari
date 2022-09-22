@@ -8,6 +8,7 @@ import Nosotros from './components/Pages/Nosotros';
 import Contacto from './components/Pages/Contacto';
 import ItemListContainer from './components/ItemListContainer';
 
+
 function App() {
   return (
     
@@ -20,11 +21,11 @@ function App() {
 <Route path='/Contacto' exact component={Contacto} />
       </Routes>
      </Router>
-     
-
-
+<div>
+<ItemListContainer greetings="Esta es mi pagina" /> 
+</div>  
    
-  )
+)
 }
 
 export default App;
