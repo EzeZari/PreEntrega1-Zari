@@ -15,15 +15,16 @@ function App() {
      <Router>
       <Navbar/>
       <Routes>
-<Route path='/' exact component={Inicio} />
-<Route path='/Nosotros' exact component={Nosotros} />
-<Route path='/Items' component={Items} />
-<Route path='/Contacto' exact component={Contacto} />
+<Route path='/' element={<Inicio/>} />
+<Route path='/Nosotros' element={<Nosotros />} />
+<Route path='/Items'element={<Items/>} />
+<Route path='/Contacto' element={<Contacto/>} />
       </Routes>
-     </Router>
-<div>
+      <div>
 <ItemListContainer greetings="Esta es mi pagina" /> 
-</div>  
+</div> 
+     </Router>
+
    
 )
 }

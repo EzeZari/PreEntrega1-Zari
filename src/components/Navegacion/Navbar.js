@@ -10,7 +10,10 @@ const navbar = () => {
   
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-  <CartWidget></CartWidget>
+  <CartWidget>
+    id ={1}
+    src = "./Logo.jpg"
+  </CartWidget>
     <Link className="navbar-brand" >Tienda Zari </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
